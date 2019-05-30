@@ -1,7 +1,9 @@
 <!--logs.wxml-->
 <view class="container log-list">
-  <block wx:for="{{logs}}" wx:for-item="log">
+  <!-- <block wx:for="{{logs}}" wx:for-item="log" wx:key="log">
     <text class="log-item">{{index + 1}}. {{log}}</text>
-  </block>
-  <map></map>
+  </block> -->
+  <map latitude="{{lat}}" longitude="{{lng}}"></map>
+  <!-- <map latitude="22.72174" longitude="114.06031"></map> -->
+  <button bindtap="locate">定位</button>
 </view>
