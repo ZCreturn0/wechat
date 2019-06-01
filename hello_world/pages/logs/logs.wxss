@@ -6,3 +6,6 @@
 .log-item {
   margin: 10rpx;
 }
+map{
+  height: 600rpx;
+}

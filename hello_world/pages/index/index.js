@@ -1,5 +1,6 @@
 //index.js
 //获取应用实例
+const hello = require('../../utils/hello.js')
 const app = getApp()
 
 Page({
@@ -44,7 +45,7 @@ Page({
     }
   },
   getUserInfo: function(e) {
-    console.log(e)
+    hello.hello(e.detail.userInfo.nickName);
     app.globalData.userInfo = e.detail.userInfo
     this.setData({
       userInfo: e.detail.userInfo,
