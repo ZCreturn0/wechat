@@ -17,6 +17,9 @@ Page({
     })
   },
   onLoad: function () {
+    // 全局数据
+    console.log('data1:'+app.data1);
+    console.log('data2:'+app.data2);
     if (app.globalData.userInfo) {
       this.setData({
         userInfo: app.globalData.userInfo,
