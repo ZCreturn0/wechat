@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<view class="container">
+  <view data-hi="hello" bindtap="taped">click</view>
+</view>
