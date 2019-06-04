@@ -1,0 +1,8 @@
+function tapCallback(event, ownerInstance){
+  console.log(event);
+  console.log(ownerInstance);
+}
+
+module.exports = {
+  callback: tapCallback
+}
