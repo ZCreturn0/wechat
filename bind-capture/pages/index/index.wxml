@@ -1,6 +1,6 @@
 <!--index.wxml-->
 <view class="container">
-  <view data-hi="hello" bindtap="taped">click</view>
+  <view id="target" data-hi="hello" bindtap="taped">click</view>
   <wxs module="wxs" src="../../wxs/test.wxs"></wxs>
   <view id="tapTest" data-hi="test" bindtap='{{wxs.callback}}'>aaa</view>
 </view>

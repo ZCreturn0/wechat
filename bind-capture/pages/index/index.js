@@ -9,5 +9,13 @@ Page({
   },
   taped(event){
     console.log(event);
+    const query = wx.createSelectorQuery();
+    query.select("#target").boundingClientRect(function(res){
+      console.log(res.top);
+    });
+    query.selectViewport().scrollOffset(function(res){
+      console.log(res.scrollTop);
+    });
+    query.exec();
   }
 })
