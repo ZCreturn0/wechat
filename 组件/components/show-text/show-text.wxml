@@ -3,3 +3,4 @@
   {{text}}
 </view>
 <slot></slot>
+<button bindtap="sendData">发送数据给父组件</button>

@@ -26,7 +26,12 @@ Component({
    * 组件的方法列表
    */
   methods: {
-
+    sendData(){
+      var detail = {
+        msg: 'ok, back now'
+      }
+      this.triggerEvent('send', detail, {});
+    }
   },
   ready(){
     console.log("parent:", this.properties.fromParent);

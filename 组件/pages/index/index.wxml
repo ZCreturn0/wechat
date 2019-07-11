@@ -10,7 +10,8 @@
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
-  <show-text data-order="back home" from-parent="what are you doing">
+  <!-- send 为 triggerEvent 中的事件名 -->
+  <show-text bind:send="reply" data-order="back home" from-parent="what are you doing">
     <text>parent slot</text>
   </show-text>
 </view>
