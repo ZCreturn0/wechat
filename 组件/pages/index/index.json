@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "show-text": "../../components/show-text/show-text"
+  }
+}

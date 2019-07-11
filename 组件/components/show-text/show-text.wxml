@@ -1,0 +1,5 @@
+<text>components/show-text/show-text.wxml</text>
+<view class="text">
+  {{text}}
+</view>
+<slot></slot>

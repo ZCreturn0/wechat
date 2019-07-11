@@ -1,0 +1,4 @@
+/* components/show-text/show-text.wxss */
+.text{
+  color: red;
+}
