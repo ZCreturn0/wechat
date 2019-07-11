@@ -10,7 +10,9 @@ Component({
     },
     fromParent: {
       type: String
-    }
+    },
+    order: String,
+    received: String
   },
 
   /**
@@ -28,5 +30,12 @@ Component({
   },
   ready(){
     console.log("parent:", this.properties.fromParent);
+    // data- 前缀的数据用 this.dataset 获取
+    console.log('order:', this.dataset.order);
+    // 用 this.setData 给properties赋值
+    this.setData({
+      received: this.properties.fromParent + ',' + this.dataset.order
+    });
+    console.log('received:', this.properties.received);
   }
 })
