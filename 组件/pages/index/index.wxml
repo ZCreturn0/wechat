@@ -10,7 +10,7 @@
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
-  <show-text>
+  <show-text from-parent="what are you doing">
     <text>parent slot</text>
   </show-text>
 </view>

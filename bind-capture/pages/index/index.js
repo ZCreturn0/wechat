@@ -9,6 +9,7 @@ Page({
   },
   taped(event){
     console.log(event);
+    // 在自定义组件或包含自定义组件的页面中，推荐使用 this.createSelectorQuery
     const query = wx.createSelectorQuery();
     query.select("#target").boundingClientRect(function(res){
       console.log(res.top);

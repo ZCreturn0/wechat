@@ -7,6 +7,9 @@ Component({
     text: {
       type: String,
       value: 'aaaaa'
+    },
+    fromParent: {
+      type: String
     }
   },
 
@@ -22,5 +25,8 @@ Component({
    */
   methods: {
 
+  },
+  ready(){
+    console.log("parent:", this.properties.fromParent);
   }
 })
