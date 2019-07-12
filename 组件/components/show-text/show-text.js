@@ -1,4 +1,5 @@
 // components/show-text/show-text.js
+var myBehavior = require('../../behaviors/my-behavior.js');
 Component({
   /**
    * 组件的属性列表
@@ -14,7 +15,10 @@ Component({
     order: String,
     received: String
   },
-
+  /**
+   * behaviors
+   */
+  behaviors: [myBehavior],
   /**
    * 组件的初始数据
    */
@@ -31,6 +35,8 @@ Component({
         msg: 'ok, back now'
       }
       this.triggerEvent('send', detail, {});
+      // 调用behavior里面的方法
+      this.say();
     }
   },
   ready(){
