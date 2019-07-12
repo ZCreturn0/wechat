@@ -42,5 +42,22 @@ Component({
       received: this.properties.fromParent + ',' + this.dataset.order
     });
     console.log('received:', this.properties.received);
+  },
+  /**
+   * 生命周期
+   */
+  lifetimes: {
+    // 组件创建时,此时不能调用setData
+    created: function(){
+      console.log("created");
+    },
+    // 组件进入页面结点,已完全初始化
+    attached: function(){
+      console.log("attached");
+    },
+    // 组件从页面移除
+    detached: function(){
+      console.log("detached");
+    }
   }
 })
