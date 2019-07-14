@@ -1,0 +1,2 @@
+<!--components/list-li/list-li.wxml-->
+<li><slot></slot></li>
