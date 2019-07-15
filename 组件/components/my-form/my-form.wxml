@@ -1,0 +1,5 @@
+<!--components/my-form/my-form.wxml-->
+<view>
+  输入:<my-input></my-input>
+  <my-button>确定</my-button>
+</view>
