@@ -19,4 +19,5 @@
     <list-li><span>bbbbb</span></list-li>
     <list-li><span>ccccc</span></list-li>
   </list-ul>
+  <my-form></my-form>
 </view>

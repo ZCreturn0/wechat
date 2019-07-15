@@ -2,6 +2,7 @@
   "usingComponents": {
     "show-text": "../../components/show-text/show-text",
     "list-ul": "../../components/list-ul/list-ul",
-    "list-li": "../../components/list-li/list-li"
+    "list-li": "../../components/list-li/list-li",
+    "my-form": "../../components/my-form/my-form"
   }
 }
