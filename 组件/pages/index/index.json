@@ -1,5 +1,7 @@
 {
   "usingComponents": {
-    "show-text": "../../components/show-text/show-text"
+    "show-text": "../../components/show-text/show-text",
+    "list-ul": "../../components/list-ul/list-ul",
+    "list-li": "../../components/list-li/list-li"
   }
 }

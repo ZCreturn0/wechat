@@ -18,7 +18,14 @@ Component({
    * 组件的方法列表
    */
   methods: {
-
+    // 获取所有子组件
+    getAll(){
+      var nodes = this.getRelationNodes('../list-li/list-li');
+      console.log(nodes);
+    }
+  },
+  ready(){
+    this.getAll();
   },
   /**
    *  关系

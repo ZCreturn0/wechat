@@ -24,7 +24,7 @@ Component({
    *  关系
    */
   relations: {
-    '../list-li/list-ul': {
+    '../list-ul/list-ul': {
       type: 'parent',
       // 插入,target是父节点实例对象
       linked: function (target) {
