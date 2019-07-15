@@ -14,4 +14,9 @@
   <show-text bind:send="reply" data-order="back home" from-parent="what are you doing">
     <text>parent slot</text>
   </show-text>
+  <list-ul>
+    <list-li><span>aaaaa</span></list-li>
+    <list-li><span>bbbbb</span></list-li>
+    <list-li><span>ccccc</span></list-li>
+  </list-ul>
 </view>

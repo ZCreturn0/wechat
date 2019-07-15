@@ -1,2 +1,4 @@
 <!--components/list-ul/list-ul.wxml-->
-<ul></ul>
+<ul>
+  <slot></slot>
+</ul>
