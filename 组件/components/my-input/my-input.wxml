@@ -1,0 +1,2 @@
+<!--components/my-input.wxml-->
+<input type='text'></input>
